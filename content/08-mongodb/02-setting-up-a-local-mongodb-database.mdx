@@ -203,7 +203,7 @@ sudo chown $USER /usr/local/var/log/mongodb
 
 ![MongoDB reassign ownership](/content/mongodb/setting-up-a-local-database/macos/assign_owner.png)
 
-Now that the directories that the MongoDB server needs are in order, you can run start the MongoDB server with the paths we created by typing:
+Now that the directories that the MongoDB server needs are in order, you can start the MongoDB server with the paths we created by typing:
 
 ```bash
 mongod --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mongo.log --fork
